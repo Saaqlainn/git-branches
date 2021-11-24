@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$fontstack:'Montserrat', sans-serif;;
+
+html {
+    font-size: 62.5%;   
+}
+
+body {
+    font-family: $fontstack;
+    padding: 1rem;
+    background-color: #CACFD2;
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        title {
+            font-size: 2.6rem; 
+            margin: 3rem;
+        }
+        p {
+            font-size: 1rem;
+            margin: 1.2rem;
+        }
+        #img-div {
+            border-radius: .5rem;
+            background-color: #fff;
+            width: 100%;
+            padding: 1rem;
+            #image {
+                // height: auto;
+                width: 100%;
+            }
+            #img-caption {
+                margin: 1.2rem 0rem;
+                font-size: 1rem;
+            }
+        }
+        #tribute-info {
+            // border: 1px solid red;
+            font-size: 1.7rem;
+            margin: 3rem 0rem;
+        }
+
+        ul {
+            max-width: 40.5rem;
+            padding: 0rem 2rem;
+            margin: auto;
+            font-size: 1.2rem;
+            li {
+                margin: 1rem 0rem;
+                line-height: 1.8rem;
+                
+            }
+        }
+        
+        .quote {
+            // border: 2px solid red;
+            max-width: 40.5rem;
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        #pm-singh {
+            // border: 1px solid red;
+            max-width: 40.5rem;
+            font-size: 1.2rem;
+            text-align: left;
+        }
+        h3 {
+            text-align:center ;
+            margin: 2rem 0rem ;
+        }
+    }
+}
+
+@media (min-width:425px) {
+    html {
+        font-size: 70%;
+    }
+}
+@media (min-width:768px) {
+    html {
+        font-size: 85%;
+    }
+}
+@media (min-width:1024px) {
+    html {
+        font-size: 95%;
+    }
+}
+@media (min-width:1440px) {
+    html {
+        font-size: 100%;
+    }
+}
